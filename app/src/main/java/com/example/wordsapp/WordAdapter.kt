@@ -91,6 +91,7 @@ class WordAdapter(private val letterId: String, context: Context) :
         }
 
     }
+
     // Setup custom accessibility delegate to set the text read with
     // an accessibility service
     companion object Accessibility : View.AccessibilityDelegate() {
